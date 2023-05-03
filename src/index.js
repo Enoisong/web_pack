@@ -1,3 +1,3 @@
-import './style.css';
+import { camelCase } from 'lodash';
 
-('Hello webpack!');
+console.log(camelCase("hello world"))
