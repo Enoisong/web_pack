@@ -12,6 +12,7 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
+
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -23,7 +24,6 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
-
     ],
   },
 };
